@@ -1,0 +1,33 @@
+.nav__list {
+	text-align: right;
+  font-size: 0;
+}
+
+.nav__item {
+    font-size: 18px;
+}
+
+.nav__link {
+	display: block;
+  text-align: right;
+  padding: 10px 25px 10px 0;
+	color: #414141;
+  border:  1px solid transparent; /*  прозрачная граница, чтобы не двигать потом текст*/
+  transition: color 0.5s;
+}
+
+.nav__link-text {
+  display: inline-block;
+}
+
+.nav__link:hover {
+	color: #33c1e3;
+}
+
+.nav__link--active {
+  border-style: solid;
+  border-width: 0 6px 0 0;
+  border-image:linear-gradient(to top, #33b7dc 0%, #32c9e9 100%) 1 100%;
+  font-family: "FiraSansBold";
+  color: #33c1e3;
+}	

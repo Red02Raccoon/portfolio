@@ -1,0 +1,45 @@
+.sidebar {
+	float: left;
+	width: 220px;
+}
+
+.page-content {
+	float: left;
+	margin-left: 20px;
+	width: 700px;
+}
+
+.title {
+	font-family: "FiraSansMedium";
+	font-size: 35px;
+	color: #414141;
+	margin-bottom: 10px;
+}
+
+.button {
+	padding: 8px 15px 8px 15px;
+	border: 2px solid #e85f61;
+	border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+	display: inline-block;
+	font-family: "FiraSansBold";
+	font-size: 14px;
+	color: #e85f61;
+	margin-bottom: 70px;
+	transition: all 0.8s;
+}
+
+.button__icon, .button__text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.button__text {
+	margin-left: 7px;
+}
+
+.button:hover {
+	color: #ffffff;
+	background-color: #e85f61;
+}

@@ -1,0 +1,69 @@
+.footer {
+	height: 50px;
+	margin-top: -50px;
+	background-color: #414141;
+	width: 100%;
+/* 	min-width: 960px; */  /* убираем при адаптиве  чтобы не было горизонтального скролла*/
+	position: relative;
+}
+
+/* element left */
+
+.footer__copy {
+	padding-top: 17px;
+	float: left;
+	width: 50%; /* считается % от ширины родителя */
+}
+
+.footer__copyText {
+	color: #9c9c9c;
+	font-size: 14px;
+	font-family: "FiraSansLight";
+	display: inline-block; /* а можно выравнивать через padding */
+}
+
+
+/* element right */
+
+.footer__socials {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.icons__list {
+	padding-top: 10px;
+}
+
+.icons__item {
+	display: inline-block;
+}
+
+.icons__link {
+	color: #414141;
+	font-size: 0;
+	line-height: 30px;
+	text-align: center;
+	width: 32px;
+    height: 31px;
+    display: block;
+    background-image: url("../img/icons/sprite.png");
+    background-repeat: no-repeat;
+    transition: background-image 0.7s;
+}
+
+.icons__link.icons__link-fb {
+    background-position: -10px -10px;
+}
+
+.icons__link.icons__link-vk {
+    background-position: -112px -10px;
+}
+
+.icons__link.icons__link-tw {
+    background-position: -61px -10px;
+}
+
+.icons__link:hover {
+    background-image: url("../img/icons/sprite-hover.png");
+}

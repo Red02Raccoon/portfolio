@@ -1,0 +1,24 @@
+@import "layout/normalize.scss";
+
+@import "layout/fonts.scss";
+
+@import "layout/font-awesome.scss";
+
+
+@import "help/mixin.scss";
+@import "sections/adjustment.scss";
+
+@import "sections/header.scss";
+@import "sections/content.scss";
+@import "sections/sidebar.scss";
+@import "sections/footer.scss";
+
+@import "sections/about.scss";
+@import "sections/career.scss";
+@import "sections/portfolio.scss";
+
+@import "media/desktop.scss";
+@import "media/laptop.scss";
+@import "media/tables.scss";
+@import "media/phones.scss";
+

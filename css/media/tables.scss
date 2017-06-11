@@ -1,0 +1,150 @@
+@media screen and (max-width: 768px) {
+		.container {
+		width: 480px;
+	}	
+
+	.header {
+		margin-bottom: 0;
+	}
+
+	.header__left {
+		width: 75%;
+	}
+
+	.header__right {
+		width: 25%;
+		padding-top: 20px;
+	}
+
+	.contacts__trigger {
+		display: inline-block;
+		vertical-align: top;  /* убрало непонятный доп размер!!! */
+		font-size: 0;
+		background: url("../img/decor/phone.png") center center no-repeat;
+		width: 32px;
+		height: 32px;
+	}
+
+	.contacts:hover .contacts__trigger {
+		background: url("../img/decor/phone-hover.png") center center no-repeat;
+	}
+
+	.contacts__dropdown {
+		top: calc(100% + 12px);
+		transform: translate(0, 0);
+	}
+
+	.contacts:hover .contacts__dropdown {
+		right: 0;
+		opacity: 1;
+	}
+
+
+	.contacts__dropdown-triangle {
+		left: 85%;
+	}
+
+
+
+
+	.nav__link-icon {
+		margin-right: 5px;
+	}
+
+	.nav {
+		margin-top: 20px;
+	}
+
+
+
+	.about__right, .about__left{
+		float: none;
+		width: 100%;
+	}
+
+	.title {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.about__desc {
+	    height: 380px;
+	    margin-bottom: 30px;
+	}
+
+	.about__download {
+		float: none;
+		text-align: center;
+	}
+
+
+
+
+	.career__left,  {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.career__right {
+		float: none;
+
+		width: 100%;
+	}
+
+	.career__pic {
+		display: inline-block;
+		margin-bottom: 15px;
+	}
+
+	.career__block:after, .career__block:before, .career__year {
+		display: none;
+	}
+
+	.career__item {
+		padding-left: 0;
+		display: block;
+	}
+
+	.career__title {
+		font-size: 18px;
+	}
+
+	.career__occupation,.career__date {
+		font-size: 16px;
+	}
+
+	.career__block {
+    	width: 100%;
+	}
+
+
+	.portfolio__list {
+     	margin-left: 0; 
+	 }
+
+	.portfolio__item {
+		width: calc(50% - 20px);
+	}
+
+
+
+	.footer {
+		height: 95px;
+		margin-top: -95px;
+	}
+
+	.wrapper:after {
+		height: 95px;
+	}
+
+	.footer__copy, .footer__socials {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.icons__list {
+   		 padding-top: 5px;
+	}
+
+}

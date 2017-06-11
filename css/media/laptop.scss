@@ -1,0 +1,57 @@
+@media screen and (max-width: 992px) {
+		.container {
+		width: 750px;
+	}
+
+	.sidebar, .page-content {
+		float: none;
+		width: 100%;
+	}
+
+	.page-content {
+		margin-left: 0;
+	}
+
+	.sidebar {
+		margin-bottom: 45px;
+	}
+
+
+	.nav__list {
+		text-align: left;
+	}
+
+	.nav__item {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 29px;
+	}
+
+	.nav__link-icon {
+  		margin-right: 10px;
+	}
+
+	.nav__link--active {
+  		border: none;
+	}
+
+	.nav__link {
+   		 padding: 0;
+	}
+
+
+
+	.about__left {
+		width: 30%;
+	}	
+
+	.about__right {
+		width: 70%;
+	}
+
+	.about__pic {
+		width: 165px; 
+		height: 165px; 
+	}
+
+}
